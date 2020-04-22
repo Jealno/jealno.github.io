@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author"
+    content="map[name:Jeremy Albert]">
+<meta name="description"
+    content="Pengantar Two Factor Authentication atau yang biasa disingkat 2FA adalah fitur keamanan tambahan dimana kita sebagai pengguna diharuskan untuk melakukan proses verifikasi sebanyak dua kali. Biasanya pengguna akan diminta untuk memasukkan password lalu setelah berhasil akan dikirimkan SMS kepada nomor yang terdaftar pada akun tersebut. Sayangnya masih ada pengguna yang acuh terhadap hal tersebut. Alhasil banyak kasus terjadi terkait social-engineering.
+Social-engineering adalah pendekatan berteknologi rendah yang dirancang oleh seseorang untuk membuat anda memberikan informasi pribadi / data sensitif lainnya dengan tujuan menipu." />
+<meta name="keywords"
+    content="personal, website, keluhkesah, 2fa" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://jealno.github.io/posts/2020/04/2fa-yang-salah-pengguna-atau-pemilik-aplikasi/" />
+
+
+<title>
+    
+    2FA, Yang Salah Pengguna atau Pemilik Aplikasi? :: Jeremy Albert 
+    
+</title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://jealno.github.io/main.min.7bfbbe12786fa0ded4b4c0d792cbb36a5bd0bdb0b856dde57aa7b1f6fe0f2b87.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://jealno.github.io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://jealno.github.io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://jealno.github.io/favicon-16x16.png">
+    <link rel="manifest" href="https://jealno.github.io/site.webmanifest">
+    <link rel="mask-icon" href="https://jealno.github.io/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://jealno.github.io/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="2FA, Yang Salah Pengguna atau Pemilik Aplikasi?">
+<meta itemprop="description" content="Pengantar Two Factor Authentication atau yang biasa disingkat 2FA adalah fitur keamanan tambahan dimana kita sebagai pengguna diharuskan untuk melakukan proses verifikasi sebanyak dua kali. Biasanya pengguna akan diminta untuk memasukkan password lalu setelah berhasil akan dikirimkan SMS kepada nomor yang terdaftar pada akun tersebut. Sayangnya masih ada pengguna yang acuh terhadap hal tersebut. Alhasil banyak kasus terjadi terkait social-engineering.
+Social-engineering adalah pendekatan berteknologi rendah yang dirancang oleh seseorang untuk membuat anda memberikan informasi pribadi / data sensitif lainnya dengan tujuan menipu.">
+<meta itemprop="datePublished" content="2020-04-19T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-04-19T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1198">
+<meta itemprop="image" content="https://jealno.github.io"/>
+
+
+
+<meta itemprop="keywords" content="keluhkesah,2fa," />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://jealno.github.io"/>
+
+<meta name="twitter:title" content="2FA, Yang Salah Pengguna atau Pemilik Aplikasi?"/>
+<meta name="twitter:description" content="Pengantar Two Factor Authentication atau yang biasa disingkat 2FA adalah fitur keamanan tambahan dimana kita sebagai pengguna diharuskan untuk melakukan proses verifikasi sebanyak dua kali. Biasanya pengguna akan diminta untuk memasukkan password lalu setelah berhasil akan dikirimkan SMS kepada nomor yang terdaftar pada akun tersebut. Sayangnya masih ada pengguna yang acuh terhadap hal tersebut. Alhasil banyak kasus terjadi terkait social-engineering.
+Social-engineering adalah pendekatan berteknologi rendah yang dirancang oleh seseorang untuk membuat anda memberikan informasi pribadi / data sensitif lainnya dengan tujuan menipu."/>
+
+
+
+<meta property="og:title" content="2FA, Yang Salah Pengguna atau Pemilik Aplikasi?" />
+<meta property="og:description" content="Pengantar Two Factor Authentication atau yang biasa disingkat 2FA adalah fitur keamanan tambahan dimana kita sebagai pengguna diharuskan untuk melakukan proses verifikasi sebanyak dua kali. Biasanya pengguna akan diminta untuk memasukkan password lalu setelah berhasil akan dikirimkan SMS kepada nomor yang terdaftar pada akun tersebut. Sayangnya masih ada pengguna yang acuh terhadap hal tersebut. Alhasil banyak kasus terjadi terkait social-engineering.
+Social-engineering adalah pendekatan berteknologi rendah yang dirancang oleh seseorang untuk membuat anda memberikan informasi pribadi / data sensitif lainnya dengan tujuan menipu." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jealno.github.io/posts/2020/04/2fa-yang-salah-pengguna-atau-pemilik-aplikasi/" />
+<meta property="og:image" content="https://jealno.github.io"/>
+<meta property="article:published_time" content="2020-04-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-04-19T00:00:00+00:00" />
+
+
+
+
+
+
+
+<meta property="article:published_time" content="2020-04-19 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://jealno.github.io/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">jealno.github.io</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://jealno.github.io/posts/">Blog</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>6 minutes
+
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title">
+                <a href="https://jealno.github.io/posts/2020/04/2fa-yang-salah-pengguna-atau-pemilik-aplikasi/">2FA, Yang Salah Pengguna atau Pemilik Aplikasi?</a>
+            </h1>
+
+            
+
+            <div class="post-content">
+                <h2 id="pengantar">Pengantar</h2>
+<p>Two Factor Authentication atau yang biasa disingkat 2FA adalah fitur keamanan tambahan dimana kita sebagai pengguna diharuskan untuk melakukan proses verifikasi sebanyak dua kali. Biasanya pengguna akan diminta untuk memasukkan password lalu setelah berhasil akan dikirimkan SMS kepada nomor yang terdaftar pada akun tersebut. Sayangnya masih ada pengguna yang acuh terhadap hal tersebut. Alhasil banyak kasus terjadi terkait social-engineering.</p>
+<p>Social-engineering adalah pendekatan berteknologi rendah yang dirancang oleh seseorang untuk membuat anda memberikan informasi pribadi / data sensitif lainnya dengan tujuan menipu. Pendekatan ini dapat dilakukan secara online maupun offline. Contohnya adalah saat ada seseorang menghubungi anda dan berkedok bahwa dia utusan dari gojek lalu meminta kode OTP pada nomor anda yang terdaftar di aplikasi Gojek. Orang itu sudah melakukan kegiataan social-engineering. Tujuannya? Bisa saja menguras saldo GoPay anda / melakukan transaksi hingga saldo anda nol. Praktek lainnya adalah phising. Apa pula itu phising? Singkatnya adalah jika anda dikirimi suatu isian dapat berupa website / form / lainnya oleh seseorang dan isiannya berkaitan dengan data sensitif seperti email, password, no kartu ATM, dan lainnya. Biasanya data - data itu digunakan untuk melakukan tindakan kriminal.</p>
+<p>Dikutip dari <a href="https://www.liputan6.com/tekno/read/4162756/jumlah-kasus-penipuan-online-selama-2019-terbanyak">Liputan6</a> kasus social-engineering ini sudah menyentuh angka 2.300. Memprihatinkan bukan? <code>SANGAT.</code> Seharusnya baju yang dibeli untuk lebaran malah akhirnya hanya bisa memakai baju lebaran yang lama. Seharusnya akan ada seorang anak yang senang dibelikan HP baru tetapi pada akhirnya anak tersebut hanya murung di pojokan kamar. Seharusnya tabungan yang sudah dikumpulkan sejak 10 tahun lalu yang rencananya akan digunakan untuk haji, raib begitu saja.</p>
+<p>Yang sangat disayangkan adalah respon dari para pemilik aplikasi. Mereka memang baik membantu penyelidikan hingga tuntas. Tetapi tidak berusaha semaksimal mungkin untuk menutup kerannya. Selama ini yang dilakukan hanya himbauan, himbauan, dan himbauan. Isi dari SMS kode OTP hanya bersifat himbauan untuk tidak menyebarkan kode OTP tersebut. Apakah cara itu efektif? Jika efektif, kenapa masih saja ada kasus social-engineering? Apa pemilik aplikasi kehabisan ide untuk mengedukasi penggunanya terkait keamanan akun?</p>
+<h2 id="permasalahan">Permasalahan</h2>
+<p>Salahnya ada di sisi siapa? Pengguna yang acuh dan tidak teredukasi? Pemilik aplikasi yang sepertinya kehabisan ide untuk mengedukasi penggunanya?</p>
+<h2 id="pembahasan">Pembahasan</h2>
+<p>Secara pribadi, edukasi hanya menggunakan teks adalah sesuatu yang membosankan dan kecil jangkauannya. Mungkin bagi anda yang sedang membaca ini, hal itu cukup. Tetapi ada segmen lainnya yang mengatakan itu tidak cukup. Apalagi di jaman serba modern seperti sekarang, inovasi harus terus dilakukan.</p>
+<h3 id="solusi-untuk-pemilik-aplikasi">Solusi Untuk Pemilik Aplikasi</h3>
+<p>Langsung saja ke solusi yang ingin saya berikan kepada para pemilik aplikasi yang membaca tulisan ini.</p>
+<ol>
+<li>Petakan terlebih dahulu pengguna anda. Tanpa saya minta, tentu anda semua sudah memiliki peta data tersebut. Data digital itu tambang emas bukan? Hehehe.</li>
+<li>Lakukan survei tentang apakah pengguna anda keberatan dengan kebijakan 2FA. Jika iya, sertakan alasannya.</li>
+<li>Jika alasannya adalah ribet dan bertele - tele maka itu tugas selanjutnya yaitu mengedukasi. Perkiraan saya kebanyakan orang tidak menggunakan 2FA karena alasan ribet dan bertele - tele.</li>
+<li>Jika perlu, lakukan survei lagi kepada pengguna anda tentang konten edukasi apa yang mereka sukai.</li>
+<li>Lakukan edukasi dengan cara yang berbeda. Bisa sesuai dengan inputan para pengguna anda / lakukan improve dari inputan pengguna anda / kombinasi antara inputan pengguna dan peta pengguna anda. Bosen pak/bu dengan edukasi deretan teks saja. Asli deh suwer.</li>
+<li>Letakkan konten edukasi keamanan akun pada tempat yang tepat. Jika perlu, highlight konten tersebut. Jangan hanya memikirkan hitungan bisnis ya pak/bu. Tentu jika anda menaruh konten itu pada tempat strategis, akan mengurangi slot iklan anda. Tentu saya mengerti itu, saya mikir dua sisi kok. Tetapi mendingan anda kehilangan pengguna karena dianggap tidak serius tentang edukasi keamanan akun / anda menaruh pada tempat yang strategis dan sekaligus memberikan nilai yang <code>beda</code> dibandingkan aplikasi lainnya?</li>
+</ol>
+<p>Saya berkeyakinan 100% masalah ini selesai jika anda para pemilik aplikasi berkomitmen tentang keamanan akun pengguna. Saya akan memberikan 2 contoh aplikasi yang menurut saya cukup memperhatikan keamanan akun penggunanya, yaitu <a href="https://www.jenius.com/en/">Jenius by BTPN</a> dan <a href="https://telegram.org/">Telegram</a>.</p>
+<ol>
+<li>Jenius. Aplikasi itu mempunyai tingkat keamanan yang sangat tinggi. Ketika mengubah pengaturan yang sensitif, pengguna diharuskan untuk memasukkan password. Jenius juga memiliki menu <code>login session</code> yang berfungsi untuk mengatur akun pengguna terkoneksi dengan device apa saja.</li>
+<li>Telegram. Reputasinya tentang keamanan dan privasi pengguna tidak perlu diragukan lagi. Salah satunya adalah <code>login session</code>. Loh kok sama dengan yang dimiliki oleh Jenius? Eits, ada bedanya loh. Ketika pengguna login pada device baru, secara otomatis Telegram akan membuatkan session baru di menunya dan pengguna di-limitasi untuk menghapus session lamanya di device yang baru di-loginkan. Limitasi ini berlaku 24 jam jika saya tidak salah.</li>
+</ol>
+<p>Anda mendapatkan poinnya bukan? Tidak mengerti? Ok saya bantu jelaskan, sebagai berikut:</p>
+<ol>
+<li>Anda dapat membuat fitur <code>login session</code> seperti yang ada di aplikasi Jenius dan Telegram. Sehingga pengguna dapat mengontrol akunnya sudah login ke device apa saja.</li>
+<li>Berikan limitasi ke pengguna saat melakukan proses login ke device baru. Tujuannya adalah menghindari perubahan pengaturan sensitif yang ada pada akun. Misalnya adalah mengubah limitasi transaksi maksimal, transfer saldo, dan lain - lain.</li>
+</ol>
+<p>Ditambah ada 2 peraturan yang mewajibkan 2FA pada bank dan layanan digital di Indonesia, antara lain:</p>
+<ol>
+<li><a href="https://www.bi.go.id/id/peraturan/sistem-pembayaran/Documents/PBI-200618.pdf">PBI nomor 20/6/PBI 2018 Tentang Uang Elektronik pasal 37 ayat 2</a></li>
+<li><a href="https://www.ojk.go.id/id/regulasi/Documents/Pages/Penyelenggaraan-Layanan-Perbankan-Digital-oleh-Bank-Umum/POJK%2012-2018.pdf">POJK nomor 12/POJK.03/2018 Tentang Penyelenggaraan Layanan Perbankan Digital Oleh Bank Umum pasal 11 ayat 4</a>.</li>
+</ol>
+<p>Hei anda pegawai yang berada di perusahaan aplikasi besar, saya tau anda orang pintar. Buktinya anda dapat bekerja disana sedangkan saya hanya menulis di blog yang di-hosting secara gratis. Tolonglah buat terobosan - terobosan baru. Saya sebagai developer merasa sedih ketika kasus baru terkait social-engineering bermunculan lagi dan lagi di media sosial. Ini isu yang sudah lama bukan? Anda menyerah menangani isu ini? Anda lebih memikirkan hitungan bisnis tanpa memikirkan ekosistemnya?</p>
+<h3 id="solusi-untuk-pengguna-aplikasi">Solusi Untuk Pengguna Aplikasi</h3>
+<p>Ya saya paham betul 2FA adalah hal yang meribetkan hidup kita. Kenyataan hidup saja sudah ribet, ditambah harus menghapalkan kode tambahan. Tetapi sekarang jaman sudah makin maju dan kita tidak bisa membendung hal itu, yang bisa kita lakukan adalah menyesuaikan diri.</p>
+<p>Saya beri 3 sikon yang kemungkinan bisa terjadi:</p>
+<ol>
+<li>Anda tidak mengaktifkan 2FA dan memberikan kode OTP pada penipu, lalu anda akan repot berurusan dengan pihak polisi dan pemilik aplikasi untuk mengusut pelakunya.</li>
+<li>Anda mengaktifkan 2FA dan masih saja memberikan kode OTP kepada penipu, akhirnya akan sama dengan poin 1.</li>
+<li>Anda rela mengorbankan sedikit keribetan dengan mengaktifkan 2FA dan tidak memberikan kode kepada siapapun, akhirnya anda bisa terbebas dari masalah yang justru membuat anda sangat pusing. Uang hilang / ditipu tentu akan membuat anda lebih ribet daripada hanya sekedar mengaktifkan 2FA.</li>
+</ol>
+<h2 id="kesimpulan">Kesimpulan</h2>
+<p>Pada akhirnya, social-engineering dapat terselesaikan jika pemilik aplikasi dapat menjalankan tugasnya dengan baik dan pengguna mematuhi peraturan yang telah dibuat. Jangan saling tunggu - tungguan dan saling menyalahkan. Jangan sampai kalimat dibawah ini terucap lagi:</p>
+<p><code>Pemilik Aplikasi: Ah itu kan bagaimana penggunanya saja. Mereka bodoh sih udah ditulis pake huruf kapital pada SMS OTP tetapi tetep bandel dengan memberikan kodenya pada orang lain.</code></p>
+<p><code>Pengguna Aplikasi: Ah ini developer aplikasinya tidak jago. Masa keamanan aplikasinya dapat ditembus segitu mudahnya. Ga cocok tuh gajinya dengan produk yang telah dibuat.</code></p>
+<p>Saling berbuat yang terbaik di masing - masing sisi. Dari sisi pemilik aplikasi, usahakan semaksimal mungkin untuk terus menekan angka kasus social-engineering. Dari sisi pengguna aplikasi, baca, tonton dan ikuti anjuran dari pemilik aplikasi. Harapan saya ke depannya proteksi 2FA ini diwajibkan untuk semua aplikasi, tidak hanya aplikasi e-commerce/bank/layanan digital lainnya, tetapi menjangkau aplikasi yang berpotensi jadi sasaran social-engineering.</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://jealno.github.io/tags/keluhkesah">keluhkesah</a></span><span class="tag"><a href="https://jealno.github.io/tags/2fa">2fa</a></span>
+                </p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>1198 Words</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-04-19 07:00 &#43;0700</p>
+        </div>
+
+        
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h">Read other posts</span>
+                    <hr />
+                </div>
+
+                <div class="pagination__buttons">
+                    
+
+                    
+                        <span class="button next">
+                            <a href="https://jealno.github.io/posts/2020/04/telegram-apa-rahasiamu/">
+                                <span class="button__text">Telegram, Apa Rahasiamu?</span>
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
+                    
+                </div>
+            </div>
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+                <span><a href="https://jealno.github.io">Jeremy Albert</a></span>
+            
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            <span> <a href="https://jealno.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/rhazdon">Djordje Atlialp</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="https://jealno.github.io/bundle.min.4a69500057d68129e88f497d354afe68422eb56de6d15e45dbe2190858ea5a76bfcb096406f992984b241db45f47388ac57ab0376e3b32125bef7a8a6d0f06c4.js" integrity="sha512-SmlQAFfWgSnoj0l9NUr&#43;aEIutW3m0V5F2&#43;IZCFjqWna/ywlkBvmSmEskHbRfRziKxXqwN247MhJb73qKbQ8GxA=="></script>
+
+
+
+    </body>
+</html>

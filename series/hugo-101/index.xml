@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo 101 on Jeremy Albert</title>
+    <link>https://jealno.github.io/series/hugo-101/</link>
+    <description>Recent content in Hugo 101 on Jeremy Albert</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 19 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jealno.github.io/series/hugo-101/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2FA, Yang Salah Pengguna atau Pemilik Aplikasi?</title>
+      <link>https://jealno.github.io/posts/2020/04/2fa-yang-salah-pengguna-atau-pemilik-aplikasi/</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jealno.github.io/posts/2020/04/2fa-yang-salah-pengguna-atau-pemilik-aplikasi/</guid>
+      <description>Pengantar Two Factor Authentication atau yang biasa disingkat 2FA adalah fitur keamanan tambahan dimana kita sebagai pengguna diharuskan untuk melakukan proses verifikasi sebanyak dua kali. Biasanya pengguna akan diminta untuk memasukkan password lalu setelah berhasil akan dikirimkan SMS kepada nomor yang terdaftar pada akun tersebut. Sayangnya masih ada pengguna yang acuh terhadap hal tersebut. Alhasil banyak kasus terjadi terkait social-engineering.
+Social-engineering adalah pendekatan berteknologi rendah yang dirancang oleh seseorang untuk membuat anda memberikan informasi pribadi / data sensitif lainnya dengan tujuan menipu.</description>
+    </item>
+    
+    <item>
+      <title>Telegram, Apa Rahasiamu?</title>
+      <link>https://jealno.github.io/posts/2020/04/telegram-apa-rahasiamu/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jealno.github.io/posts/2020/04/telegram-apa-rahasiamu/</guid>
+      <description>Pengantar Telegram adalah salah satu dari sekian banyaknya aplikasi instant-messaging yang tersedia di Android &amp;amp; iOS. Banyak kelebihan yang ditawarkan dan sulit disaingi oleh aplikasi kompetitor. Seperti unlimited storage, member grup yang mampu mencapai 200,000 orang, dapat mengatur perangkat yang login, pengelompokan chat yang dapat diatur bebas oleh pengguna, open-source, API manajemen bot, privasi diutamakan, tidak ada iklan, enkripsi yang ketat dan masih banyak lainnya. Siapa yang tidak tergiur dengan semua kelebihan tersebut?</description>
+    </item>
+    
+  </channel>
+</rss>
