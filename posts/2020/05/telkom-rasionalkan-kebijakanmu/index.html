@@ -50,7 +50,7 @@ Dengan statusnya sebagai BUMN, tentu saja Telkom mampu untuk menjangkau area ter
 Dengan statusnya sebagai BUMN, tentu saja Telkom mampu untuk menjangkau area terluar Indonesia yang sulit untuk dijangkau oleh perusahaan telekomunikasi lainnya. Telkom juga mampu untuk menyediakan layanan yang lebih baik khususnya dalam ketersediaan sinyal yang stabil.">
 <meta itemprop="datePublished" content="2020-05-01T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-05-01T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="1870">
+<meta itemprop="wordCount" content="2024">
 <meta itemprop="image" content="https://jealno.github.io"/>
 
 
@@ -140,7 +140,7 @@ Dengan statusnya sebagai BUMN, tentu saja Telkom mampu untuk menjangkau area ter
     <main class="post">
 
         <div class="post-info">
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>9 minutes
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>10 minutes
 
             
 
@@ -165,17 +165,31 @@ Dengan statusnya sebagai BUMN, tentu saja Telkom mampu untuk menjangkau area ter
 <h2 id="pembahasan">Pembahasan</h2>
 <p>Sebelum melanjutkan pembahasan yang mendalam, saya ingin mengapresiasi Telkom Group karena sudah memberikan pelayanan yang terbaik yang dapat dilakukan. Saya pun pelanggan indihome dan by.U, merasa cukup puas dengan pelayanan yang diberikan. Contohnya adalah mayoritas tempat yang saya datangi pasti terdapat sinyal Telkomsel dan ketika ISP lain tidak dapat menjangkau wilayah saya, indihome dapat menjangkaunya. Tetapi tidak ada produk yang sempurna. Pasti ada saja hal yang masih kurang dan dapat diperbaiki. Hal itulah yang membuat saya membuat tulisan ini. Dalam tulisan ini, saya juga memberikan beberapa solusi yang dapat di-implementasikan pada sistem Telkom.</p>
 <p>Jika kita melihat di forum / group / surat pembaca / web seperti <a href="mediakonsumen.com">Media Konsumen</a>, banyak sekali yang mengeluhkan layanan Telkom. Mulai dari indihome hingga Telkomselnya. Ada yang mengeluhkan lambatnya internet, sulit saat ingin memasang indihome, jawaban CS yang membingungkan, kebijakan yang sering berubah - ubah, sistem FUP yang merugikan konsumen dan lainnya. Saya tidak akan membahas semuanya. Saya hanya akan membahas 2 hal yang saya alami juga yaitu sistem FUP yang merugikan konsumen dan kebijakan yang sering berubah - ubah.</p>
-<h3 id="sistem-fup-yang-merugikan-konsumen">Sistem FUP Yang Merugikan Konsumen</h3>
+<p>Sebelum melanjutkan membaca, saya ingin memberikan info tambahan guna memahami tulisan berikutnya. Angka Mbps yang terdapat di brosur / website indihome itu satuannya adalah bit atau <code>b kecil</code>. Sedangkan satuan yang kita pakai dalam kehidupan sehari - hari adalah byte atau <code>B besar.</code></p>
+<p>Apa maksudnya satuan yang kita pakai dalam kehidupan sehari - hari? Jika kalian menggunakan aplikasi seperti IDM di Windows / net speed indicator di Android, rata - rata aplikasi itu menggunakan satuan byte atau <code>B besar.</code> Lalu bagaimana cara mengkonversi <code>bit</code> ke <code>byte</code>? Mudah saya tinggal dibagi dengan 8. Contohnya adalah ketika saya berlangganan 10Mbps maka konversinya menjadi:</p>
+<pre><code>Cara 1
+10Mbps : 8 = 1.25MBps
+
+Cara 2
+10.000Kbps : 8 = 1.250KBps
+
+Catatan:
+- 1MB/b = 1000KB/b
+Dibaca: 1 Mega byte / bit sama dengan 1000 Kilo byte / bit.
+
+- MB/b &gt; KB/b
+Dibaca: Mega byte / bit lebih besar daripada Kilo byte / bit 
+</code></pre><h3 id="sistem-fup-yang-merugikan-konsumen">Sistem FUP Yang Merugikan Konsumen</h3>
 <p>Jika kita membaca kebijakan Telkom tentang <a href="https://www.indihome.co.id/pusat-bantuan/indipedia/detail/Fair+Usage+Policy+%28FUP%29">Fair Usage Policy (FUP)</a>, memang betul kebijakan FUP adalah syarat yang tidak dapat dipisahkan saat kita ingin berlangganan indihome dan Telkom berhak mengubah ketentuan kebijakan FUP kapanpun mereka mau.</p>
 <p>Tapi apakah masuk akal jika bandwith diturunkan begitu drastis sementara pelanggan harus membayar <code>penuh setiap bulan</code> dan tidak mendapatkan bandwith yang seharusnya di-dapatkan? Setelah saya mencoba untuk mencari alasan kenapa Telkom membuat kebijakan FUP seperti ini, ditemukan <a href="https://www.cnnindonesia.com/teknologi/20160209171225-213-109825/telkom-ungkap-alasan-terapkan-fup-di-indihome">artikel dari CNN</a> yang mengatakan bahwa kebijakan FUP diterapkan karena adanya pelanggan yang menggunakan bandwidth secara berlebihan. What? Hanya karena kelakuan dari beberapa oknum lalu yang kena dampaknya semua pelanggan indihome?</p>
 <p>Hei anda pembuat kebijakan di Telkom, sepertinya anda perlu belajar dari FirstMedia. Analoginya adalah jika salah satu jari anda terinfeksi, solusinya bukan memotong tangannya, melainkan potong saja jari yang terinfeksi tersebut.</p>
 <p><img src="https://jealno.github.io/FUP_FM.png" alt=""></p>
-<p>Seperti yang sudah disebutkan di atas, saya juga pelanggan indihome. Paketan yang saya gunakan adalah Learning From Home. Paketan murah? Iya betul, sebulan hanya membayar Rp 200.000. <code>Yaelah bro ada harga = ada kualitas.</code> Pasti opini seperti itu akan muncul, sekali lagi ini bukan masalah harga yang dibayarkan tetapi ada logika yang perlu diluruskan. Anda mau tau seberapa tersiksanya saya tiap bulan karena kebijakan FUP Telkom? Silahkan simak gambar dibawah ini.</p>
+<p>Seperti yang sudah disebutkan di atas, saya juga pelanggan indihome. Paketan yang saya gunakan adalah Learning From Home 2P 10Mbps. Paketan murah? Iya betul, sebulan hanya membayar Rp 200.000. <code>Yaelah bro ada harga = ada kualitas.</code> Pasti opini seperti itu akan muncul, sekali lagi ini bukan masalah harga yang dibayarkan tetapi ada logika yang perlu diluruskan. Anda mau tau seberapa tersiksanya saya tiap bulan karena kebijakan FUP Telkom? Silahkan simak gambar dibawah ini.</p>
 <p><img src="https://jealno.github.io/FUP_LFH.png" alt=""></p>
 <p>Miris bukan?</p>
 <ul>
-<li>Saat saya melewati FUP1 (100GB), maka bandwith saya tersisa 50% dari 10Mbps (625KBps).</li>
-<li>Yang parahnya, saat melewati FUP2 (200GB), bandwith saya hanya tersisa 30% dari 10Mbps (375KBps).</li>
+<li>Saat saya melewati FUP1 (100GB), maka bandwith saya tersisa 50% dari 10Mbps yaitu 625KBps.</li>
+<li>Yang parahnya, saat melewati FUP2 (200GB), bandwith saya hanya tersisa 30% dari 10Mbps yaitu 375KBps.</li>
 </ul>
 <p>Hal ini pasti juga dialami oleh pelanggan indihome 10Mbps lainnya sejak bulan April 2020. Saya tidak tahu apakah ini kebijakan FUP selama pandemi corona / akan diubah lagi skema persenannya. Dan setelah melihat gambar diatas, akan ada 2 pertanyaan yang muncul yaitu:</p>
 <ol>
@@ -189,7 +203,7 @@ Dengan statusnya sebagai BUMN, tentu saja Telkom mampu untuk menjangkau area ter
 </ol>
 <p>Anda mau yang lebih miris? Saya mempunyai kenalan yang memasang indihome 300Mbps. Biaya yang harus dia bayarkan tiap bulannya adalah kurang lebih Rp 3.000.000. Tetapi masih juga terkena sistem FUP. Silahkan lihat gambar dibawah ini.</p>
 <p><img src="https://jealno.github.io/300.png" alt=""></p>
-<p>Memang betul bahwa 20% dari 300Mbps (7,5MBps) masih sangat besar. Tetapi apakah masuk akal pelanggan membayar penuh sebesar 3 juta sedangkan hanya mendapatkan 7,5MBps setelah penggunaan melewati 4TB?</p>
+<p>Memang betul bahwa 20% dari 300Mbps masih sangat besar yaitu 7.5MBps. Tetapi apakah masuk akal pelanggan membayar penuh sebesar 3 juta sedangkan hanya mendapatkan 7.5MBps setelah penggunaan melewati 4TB?</p>
 <p>Kritik selanjutnya adalah tidak adanya transparansi tentang besaran FUP di brosur paket / website <a href="https://www.indihome.co.id/">indihome</a>. Saya sadar betul jika anda melakukan itu, maka kemungkinan angka penjualan anda akan menurun karena pelanggan merasa dirugikan / ragu / dan lainnya. Seingat saya Telkom sempat melakukan hal itu tetapi tidak tahu mengapa halaman tentang detail FUP sudah menghilang dari websitenya.</p>
 <p>Lalu solusinya apa? Katanya mau menawarkan solusi. Mana solusinya? Sabar hei, dibawah ini akan saya berikan beberapa skenario untuk menyelesaikan masalah FUP yang merugikan konsumen:</p>
 <ol>
@@ -201,7 +215,7 @@ Dengan statusnya sebagai BUMN, tentu saja Telkom mampu untuk menjangkau area ter
 <p>Banyak yang mengatakan bahwa Telkom menerapkan otonomi daerah, yang artinya tiap regional dapat mengatur kebijakannya masing - masing sesuai kebutuhan. Ya betul, saya juga setuju karena tiap daerah mempunyai kebutuhannya masing - masing dan <strong>hanya JIKA kebijakan itu diterapkan dengan benar.</strong></p>
 <p>Pada tanggal 24 Februari 2020, saya sedang ada di kota Semarang dan tinggal di rumah sodara yang memasang indihome 10Mbps. Saya mengkontak salah satu kenalan internal Telkom untuk mengecek apakah internet yang saya pakai sudah FUP / belum. Ternyata sudah FUP melewati 400GB. Dan betul saja ketika saya coba streaming di Youtube, saya hanya mendapatkan 330KBps.</p>
 <p><img src="https://jealno.github.io/FUP_24Feb.png" alt=""></p>
-<p>Pada tanggal 27 Februari 2020, pagi hari saya mencoba melakukan download file dan kaget bercampur senang bisa mendapatkan speed sebesar 1,3MBps. Tetapi setelah saya berpikir ulang, seharusnya FUP kan di-reset per tanggal 1 tiap bulannya, ini belum tanggal 1 tetapi kenapa sudah kereset? Lalu saya tanya ke kenalan internal Telkom untuk memastikan internet yang saya gunakan FUP / tidak. Ternyata masih FUP. Aneh bukan? FUP pada waktu itu hanya dipotong 40% dari 10Mbps, jadi seharusnya saya hanya bisa mendapatkan maksimal 750KBps.</p>
+<p>Pada tanggal 27 Februari 2020, pagi hari saya mencoba melakukan download file dan kaget bercampur senang bisa mendapatkan speed sebesar 1.3MBps. Tetapi setelah saya berpikir ulang, seharusnya FUP kan di-reset per tanggal 1 tiap bulannya, ini belum tanggal 1 tetapi kenapa sudah kereset? Lalu saya tanya ke kenalan internal Telkom untuk memastikan internet yang saya gunakan FUP / tidak. Ternyata masih FUP. Aneh bukan? FUP pada waktu itu hanya dipotong 40% dari 10Mbps, jadi seharusnya saya hanya bisa mendapatkan maksimal 750KBps.</p>
 <p><img src="https://jealno.github.io/FUP_27Feb.png" alt=""></p>
 <p>Karena saya ingin meminta kejelasan, pada tanggal 18 maret 2020 akhirnya saya datang ke Plasa Telkom Semarang, Jalan Pahlawan No 10. Aneh ya terlampau jauh tanggalnya? Iya maaf saya sibuk saat awal maret. Saya coba tanyakan ke CS dan dikatakan bahwa paketan saya dinaikkan menjadi Streamix 2P 20Mbps tanpa konfirmasi terlebih dahulu sejak tanggal 27 Februari 2020. What? Tanpa konfirmasi? Yang benar saja woi!</p>
 <p><img src="https://jealno.github.io/PaketBerubah.png" alt=""></p>
@@ -228,7 +242,7 @@ Dengan statusnya sebagai BUMN, tentu saja Telkom mampu untuk menjangkau area ter
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://jealno.github.io/tags/keluhkesah">keluhkesah</a></span><span class="tag"><a href="https://jealno.github.io/tags/telkom">telkom</a></span>
                 </p>
 
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>1870 Words</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>2024 Words</p>
 
             <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-05-01 07:00 &#43;0700</p>
         </div>
